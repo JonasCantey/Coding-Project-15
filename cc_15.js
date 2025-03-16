@@ -26,7 +26,7 @@ function addRiskItem (riskName, riskLevel, department) {
                 //Task 6, added stopProp
                 event.stopPropagation();    //stopProp makes it so that if you press the remove button 
             });                             //then risk Card clicked wont be logged
-            //Task 5
+            //Task 4
             if (riskLevel === "Low") {
                 riskCard.style.backgroundColor = "lightgreen"; // Green for Low risk
             } else if (riskLevel === "Medium") {
