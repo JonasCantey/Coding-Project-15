@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Risk Management Dashboard</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+        }
+        .metric-card {
+            padding: 10px;
+            margin: 10px;
+            background-color: lightgray;
+            border-radius: 5px;
+            display: inline-block;
+        }
+        #riskForm {
+            margin-top: 20px
+        }
+        #riskForm input, #riskForm button {
+            padding: 10px;
+            margin: 5px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Risk Management</h1>
+    </header>
+
+    <!-- Main Section -->
+    <main>
+        <h1>Employee Container</h1>
+        <div id="riskDashboard"></div>
+        <form id="riskForm">
+            <input type="text" id="riskInput" placeholder="Enter new risk item" required>
+            <button type="submit">Add Risk</button>
+        </form>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <h1>2025 Risk Management Dashboard</h1>
+    </footer>
+
+    <!-- Link to JavaScript File -->
+    <script src="cc_15.js"></script>
+</body>
+</html>
