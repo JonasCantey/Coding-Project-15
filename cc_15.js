@@ -23,7 +23,8 @@ function addRiskItem (riskName, riskLevel, department) {
              //Task 4
              resolveButton.addEventListener('click', () => { //basically says that on click we will remove the 
                 dashboard.removeChild(riskCard);        //riskCard from the dashboard
-                event.stopPropagation();    //stopProp makes it so that if you press the remove button
+                //Task 6, added stopProp
+                event.stopPropagation();    //stopProp makes it so that if you press the remove button 
             });                             //then risk Card clicked wont be logged
             //Task 5
             if (riskLevel === "Low") {
