@@ -16,7 +16,7 @@ function addRiskItem (riskName, riskLevel, department) {
        <p>Risk: <span class="risk-level">${riskLevel}</span></p>`;  //this is saying what content goes in the ticket card
      dashboard.appendChild(riskCard);    //this appends the metric card to the 
 
-     //Task 3
+     //Task 3 Removing Risk Items
      const resolveButton = document.createElement('Button'); //creating a remove button
              resolveButton.innerHTML = 'Resolve'; //inside the remove button is the word remove
              riskCard.appendChild(resolveButton); //this appends the remove button to the risk card
